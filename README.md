@@ -36,3 +36,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Learnings
 1. favicon.ico cannot be placed in public folder. It has to be placed in the `src/app` folder. [Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#favicon)
 2. `page.js` cannot be renamed to `index.js`. A page.js file is required to make a route segment publicly accessible. `layout.js` also has to stay in app folder. [Reference](https://nextjs.org/docs/getting-started/project-structure#routing-files)
+3. `layout.js` replaces both `_app.js` and `_document.js`. [Reference](https://www.makeuseof.com/create-custom-layout-in-nextjs/)
