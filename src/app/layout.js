@@ -1,5 +1,7 @@
-import '@/styles/globals.css'
 import { Outfit } from 'next/font/google'
+
+// These styles apply to every route in the application
+import '@/styles/globals.css'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
