@@ -32,3 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Learnings
+1. favicon.ico cannot be placed in public folder. It has to be placed in the `src/app` folder. [Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#favicon)
+2. `page.js` cannot be renamed to `index.js`. A page.js file is required to make a route segment publicly accessible. `layout.js` also has to stay in app folder. [Reference](https://nextjs.org/docs/getting-started/project-structure#routing-files)
