@@ -13,6 +13,9 @@ module.exports = {
       'desktop': '1280px'
     },
     extend: {
+      colors: {
+        'primary': '#1C0202',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
