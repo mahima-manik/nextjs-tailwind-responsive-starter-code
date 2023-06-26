@@ -13,7 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      {/* The body is a flex container with its items centered horizontally and aligned to the top vertically. 
+      It has a minimum height of the screen's height and the text color is set to white. */}
+      <body className={`flex justify-center items-start min-h-screen text-white ${outfit.className}`}>
+        {/* The children are wrapped inside a div that takes up 80% of its parent's width. */}
+        <div className="w-4/5">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

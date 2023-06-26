@@ -1,7 +1,14 @@
-import Image from 'next/image'
+import Features from '@/components/Features'
+import Header from'@/components/Header'
+import HeroBanner from '@/components/HeroBanner'
+
 
 export default function Home() {
   return (
-    <h1>hello</h1>
+    <>
+    <Header/>
+    <HeroBanner/>
+    <Features/>
+    </>
   )
 }

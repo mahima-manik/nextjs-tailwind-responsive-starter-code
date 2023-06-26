@@ -4,9 +4,18 @@
 
 @layer base {
     h1 {
-        @apply font-outfit text-4xl font-bold desktop:text-5xl text-white;
+        @apply font-outfit font-bold text-5xl;
+    }
+    h2 {
+        @apply font-outfit font-bold text-4xl;
     }
     body {
         @apply bg-primary;
+    }
+    p {
+        @apply font-outfit text-base;
+    }
+    :single-button {
+        @apply font-outfit text-base;
     }
 }

@@ -8,10 +8,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    screens: {
-      'tablet': '960px',
-      'desktop': '1280px'
-    },
+    screens: {},
     extend: {
       colors: {
         'primary': '#1C0202',
