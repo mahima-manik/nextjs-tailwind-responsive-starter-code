@@ -8,7 +8,6 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    screens: {},
     extend: {
       colors: {
         'primary': '#1C0202',
