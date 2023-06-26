@@ -6,9 +6,9 @@ import HeroBanner from '@/components/HeroBanner'
 export default function Home() {
   return (
     <>
-    <Header/>
-    <HeroBanner/>
-    <Features/>
+      <Header/>
+      <HeroBanner/>
+      <Features/>
     </>
   )
 }
