@@ -6,8 +6,8 @@ import '@/styles/globals.css'
 const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Astro Teller',
-  description: 'Know your stars using Artificial Intelligence',
+  title: 'Next.js Tailwind Responsive Starter Code',
+  description: 'Responsive layout and components using Tailwind CSS for all screen sizes - mobile, tablet and desktops.',
 }
 
 export default function RootLayout({ children }) {
