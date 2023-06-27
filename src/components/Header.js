@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="flex flex-col sm:flex-row flex-auto items-center justify-center align-top py-2 gap-2 bg-cyan-600">
+    <div className="flex flex-col sm:flex-row flex-auto items-center justify-center align-top gap-2 sm:gap-5 px-2 py-2 sm:px-5 sm:py-5 bg-cyan-600">
       <div className="outline-dashed outline-1">
         <h2>Project Name</h2>
       </div>
