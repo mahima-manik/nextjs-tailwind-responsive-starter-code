@@ -61,8 +61,37 @@ Here is the summary to remember the project structure. Note that it is a convent
     - You can define pages by exporting a component from a page.js file - by using Nested folders to refine routes in Next.js.
 
 ## 🏄🏻 Tailwind CSS
-To be added
 
+### Concepts
+1. **Breakpoints**: Tailwind CSS uses mobile-first breakpoint system. Default breakpoints are as follows:
+    ```js
+    screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+    }
+    ```
+
+- Easy way to visualize is through changing colors on the breakpoints. For example, if you want to change the background color of the page at different breakpoints, you can do it as follows:
+    
+    ```html
+    <div class="bg-red-500 sm:bg-green-500 md:bg-blue-500 lg:bg-yellow-500 xl:bg-purple-500 2xl:bg-pink-500">
+        <h1>Responsive Background Color</h1>
+    </div>
+    ```
+
+- Use unprefixed utilities to target mobile, and override them at larger breakpoints. Don’t think of `sm:` as meaning “on small screens”, think of it as “at the small breakpoint“.
+
+- It is also possible to customize add/override breakpoints - giving them different names and dimenions as per your requirements. More info: [here](https://tailwindcss.com/docs/responsive-design#customizing-your-theme)
+
+Here are some of the important tailwind css classes that helps in responsive web design:
+
+1. **`flex`**: Used for arrangement of child elements within a container by specifying the flex direction (-row, -col, -row-reverse, -col-reverse). It also provides easy control of sizes, spacing, order, and alignment between child elements.
+2. **`justify-center`**: The justify-content property aligns the flex items along the main axis of the current line of the flex container.
+3. **`items-center`**: The align-items property aligns flex items of the current flex line the same way as justify-content but in the perpendicular direction.
+4. **`min-h-screen`**: The min-height CSS property sets the minimum height of an element.  It ensures that the element occupies at least the entire height of the viewport, providing a full-screen effect.
 
 ## 📚 Learnings & Resources
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -75,3 +104,4 @@ To be added
 1. [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer): Chrome extension to resize the browser window for testing different screen resolutions.
 2. [ESLint](https://eslint.org/): ESLint statically analyzes your code to quickly find problems.
 3. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Visual Studio Code plugin that autocompletes npm modules in import statements.
+4. [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss): Super useful VSCode plugin that autocomplete suggestions for Tailwind CSS and provides instant CSS preview.
