@@ -6,14 +6,14 @@ Welcome to the Next.js 13.4 & Tailwind CSS Starter Code repository. This project
 <details>
 <summary><span style="font-size: 1em;">📱 Mobile View</span></summary>
 <div style="display:flex;">
-  <img src="mobile.png" alt="Image 1" style="width:50%;height:50%;">
+  <img src="https://github.com/mahima-manik/nextjs-tailwind-responsive-starter-code/assets/30531520/178d3a73-6aee-4385-9186-c8cee43416df" alt="Image 1" style="width:50%;height:50%;">
 </div>
 </details>
 
 <details>
 <summary><span style="font-size: 1em;">🖥 Desktop View</span></summary>
 <div style="display:flex;">
-  <img src="desktop.png" alt="Image 1" style="width:80%;height:80%;">
+  <img src="https://github.com/mahima-manik/nextjs-tailwind-responsive-starter-code/assets/30531520/2b2bd400-2226-4832-af63-86f3b57f1e82" alt="Image 1" style="width:80%;height:80%;">
 </div>
 </details>
 
