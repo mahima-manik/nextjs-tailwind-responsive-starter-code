@@ -1,6 +1,21 @@
 ## ⭐ Next.js & TailWind CSS Starter Code for Responsive Websites ⭐
 
-Welcome to the Next.js & Tailwind CSS Starter Code repository. This project aims to simplify the process of setting up a new Next.js project with Tailwind CSS for responsive web design.
+Welcome to the Next.js 13.4 & Tailwind CSS Starter Code repository. This project aims to simplify the process of setting up a new Next.js project with Tailwind CSS for responsive web design. This is modular and easy to understand code that can be used as a starting point for any new project.
+
+
+<details>
+<summary><span style="font-size: 1em;">📱 Mobile View</span></summary>
+<div style="display:flex;">
+  <img src="mobile.png" alt="Image 1" style="width:50%;height:50%;">
+</div>
+</details>
+
+<details>
+<summary><span style="font-size: 1em;">🖥 Desktop View</span></summary>
+<div style="display:flex;">
+  <img src="desktop.png" alt="Image 1" style="width:80%;height:80%;">
+</div>
+</details>
 
 ## 🚀 Getting Started
 
@@ -105,3 +120,8 @@ Here are some of the important tailwind css classes that helps in responsive web
 2. [ESLint](https://eslint.org/): ESLint statically analyzes your code to quickly find problems.
 3. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Visual Studio Code plugin that autocompletes npm modules in import statements.
 4. [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss): Super useful VSCode plugin that autocomplete suggestions for Tailwind CSS and provides instant CSS preview.
+
+## 🫡 Contributing
+👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+- You can log any defects or suggestions as GitHub issues [here](https://github.com/mahima-manik/nextjs-tailwind-responsive-starter-code/issues). 
+- To contribute code, fork this project and submit a pull request with your changes and add a brief description of your contribution.
